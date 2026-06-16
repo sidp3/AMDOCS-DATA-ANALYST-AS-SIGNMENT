@@ -1,0 +1,332 @@
+
+<style>
+  .tbl { width: 100%; border-collapse: collapse; font-size: 13px; }
+  .tbl th { background: #1a1a2e; color: #fff; padding: 10px 12px; text-align: left; font-weight: 500; font-size: 12px; letter-spacing: 0.4px; }
+  .tbl th:first-child { border-radius: 8px 0 0 0; }
+  .tbl th:last-child  { border-radius: 0 8px 0 0; text-align: center; }
+  .tbl td { padding: 10px 12px; border-bottom: 0.5px solid var(--color-border-tertiary); vertical-align: middle; color: var(--color-text-primary); }
+  .tbl tr:last-child td { border-bottom: none; }
+  .tbl tr:hover td { background: var(--color-background-secondary); }
+  .badge { display: inline-block; padding: 3px 10px; border-radius: 20px; font-size: 11px; font-weight: 500; }
+  .done   { background: #E1F5EE; color: #085041; }
+  .bonus  { background: #FAEEDA; color: #633806; }
+  .bar-wrap { background: var(--color-background-secondary); border-radius: 20px; height: 8px; width: 100%; min-width: 80px; overflow: hidden; }
+  .bar-fill { height: 8px; border-radius: 20px; }
+  .score-cell { text-align: center; font-weight: 500; font-size: 14px; }
+  .section-row td { background: var(--color-background-secondary); font-weight: 500; font-size: 11px; letter-spacing: 0.5px; color: var(--color-text-secondary); text-transform: uppercase; padding: 6px 12px; }
+  .total-row td { background: #1a1a2e; color: #fff; font-weight: 500; padding: 12px; }
+  .total-row td:last-child { text-align: center; }
+</style>
+
+<h2 class="sr-only">Assignment completion and efficiency table for the Amdocs Smart Financial Data Assistant project</h2>
+
+<div style="background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); overflow: hidden;">
+<table class="tbl">
+  <thead>
+    <tr>
+      <th style="width:28%">Task / Requirement</th>
+      <th style="width:14%">Phase</th>
+      <th style="width:12%">Status</th>
+      <th style="width:22%">Completion</th>
+      <th style="width:8%">Score</th>
+      <th style="width:16%">Criterion</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr class="section-row"><td colspan="6">Phase 1 — Data selection</td></tr>
+    <tr>
+      <td>Financial dataset chosen</td>
+      <td style="color:var(--color-text-secondary)">Phase 1</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Analytical thinking</td>
+    </tr>
+    <tr>
+      <td>Domain context explained</td>
+      <td style="color:var(--color-text-secondary)">Phase 1</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Business understanding</td>
+    </tr>
+
+    <tr class="section-row"><td colspan="6">Phase 2 — Data preparation &amp; analysis</td></tr>
+    <tr>
+      <td>Data quality assessment</td>
+      <td style="color:var(--color-text-secondary)">Phase 2A</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:90%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">90%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Data prep &amp; EDA</td>
+    </tr>
+    <tr>
+      <td>Cleaning &amp; preprocessing</td>
+      <td style="color:var(--color-text-secondary)">Phase 2A</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:95%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">95%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Data prep &amp; EDA</td>
+    </tr>
+    <tr>
+      <td>Steps &amp; assumptions documented</td>
+      <td style="color:var(--color-text-secondary)">Phase 2A</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Communication</td>
+    </tr>
+    <tr>
+      <td>Key drivers &amp; correlations</td>
+      <td style="color:var(--color-text-secondary)">Phase 2B</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:95%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">95%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Analytical thinking</td>
+    </tr>
+    <tr>
+      <td>Trends across time &amp; segments</td>
+      <td style="color:var(--color-text-secondary)">Phase 2B</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Analytical thinking</td>
+    </tr>
+    <tr>
+      <td>Anomalies &amp; insights highlighted</td>
+      <td style="color:var(--color-text-secondary)">Phase 2B</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:90%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">90%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Analytical thinking</td>
+    </tr>
+    <tr>
+      <td>Assumptions, limitations, biases stated</td>
+      <td style="color:var(--color-text-secondary)">Phase 2 critical</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Communication</td>
+    </tr>
+
+    <tr class="section-row"><td colspan="6">Phase 3 — Visual storytelling (dashboard)</td></tr>
+    <tr>
+      <td>At least 3 distinct views / pages</td>
+      <td style="color:var(--color-text-secondary)">Phase 3</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Dashboard design</td>
+    </tr>
+    <tr>
+      <td>Filters / slicers for exploration</td>
+      <td style="color:var(--color-text-secondary)">Phase 3</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Dashboard design</td>
+    </tr>
+    <tr>
+      <td>Key metrics highlighted</td>
+      <td style="color:var(--color-text-secondary)">Phase 3</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Dashboard design</td>
+    </tr>
+    <tr>
+      <td>Clear data story told</td>
+      <td style="color:var(--color-text-secondary)">Phase 3</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:95%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">95%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Communication</td>
+    </tr>
+
+    <tr class="section-row"><td colspan="6">Phase 4 — AI assistant (core component)</td></tr>
+    <tr>
+      <td>Summary queries &amp; aggregations</td>
+      <td style="color:var(--color-text-secondary)">Phase 4</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">AI assistant</td>
+    </tr>
+    <tr>
+      <td>Filters, rankings, comparisons</td>
+      <td style="color:var(--color-text-secondary)">Phase 4</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">AI assistant</td>
+    </tr>
+    <tr>
+      <td>Structured, explanatory answers</td>
+      <td style="color:var(--color-text-secondary)">Phase 4</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:95%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">95%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">AI assistant</td>
+    </tr>
+    <tr>
+      <td>Data source cited in answers</td>
+      <td style="color:var(--color-text-secondary)">Phase 4</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">AI assistant</td>
+    </tr>
+    <tr>
+      <td>Handles unclear questions gracefully</td>
+      <td style="color:var(--color-text-secondary)">Phase 4</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:90%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">90%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">AI assistant</td>
+    </tr>
+    <tr>
+      <td>3 questions it answers well (with reasons)</td>
+      <td style="color:var(--color-text-secondary)">Phase 4 critical</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">AI assistant</td>
+    </tr>
+    <tr>
+      <td>3 questions it fails (with reasons)</td>
+      <td style="color:var(--color-text-secondary)">Phase 4 critical</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Communication</td>
+    </tr>
+
+    <tr class="section-row"><td colspan="6">Phase 5 — Insights &amp; recommendations</td></tr>
+    <tr>
+      <td>Problem statement defined</td>
+      <td style="color:var(--color-text-secondary)">Phase 5</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Business understanding</td>
+    </tr>
+    <tr>
+      <td>3–4 key insights documented</td>
+      <td style="color:var(--color-text-secondary)">Phase 5</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Analytical thinking</td>
+    </tr>
+    <tr>
+      <td>AI assistant approach explained</td>
+      <td style="color:var(--color-text-secondary)">Phase 5</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Communication</td>
+    </tr>
+    <tr>
+      <td>Actionable recommendations (4)</td>
+      <td style="color:var(--color-text-secondary)">Phase 5</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Business understanding</td>
+    </tr>
+
+    <tr class="section-row"><td colspan="6">Deliverables</td></tr>
+    <tr>
+      <td>Interactive dashboard (deployed)</td>
+      <td style="color:var(--color-text-secondary)">Deliverable</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Dashboard design</td>
+    </tr>
+    <tr>
+      <td>Executive summary (in-app page)</td>
+      <td style="color:var(--color-text-secondary)">Deliverable</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Communication</td>
+    </tr>
+    <tr>
+      <td>Dataset &amp; approach explained</td>
+      <td style="color:var(--color-text-secondary)">Deliverable</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Communication</td>
+    </tr>
+    <tr>
+      <td>Downloadable ZIP + README</td>
+      <td style="color:var(--color-text-secondary)">Deliverable</td>
+      <td><span class="badge done">Done</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#1D9E75"></div></div></td>
+      <td class="score-cell" style="color:#1D9E75">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Creativity</td>
+    </tr>
+
+    <tr class="section-row"><td colspan="6">Bonus</td></tr>
+    <tr>
+      <td>Enterprise product roadmap</td>
+      <td style="color:var(--color-text-secondary)">Bonus</td>
+      <td><span class="badge bonus">Bonus</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#BA7517"></div></div></td>
+      <td class="score-cell" style="color:#BA7517">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Creativity &amp; initiative</td>
+    </tr>
+    <tr>
+      <td>Project charter diagram</td>
+      <td style="color:var(--color-text-secondary)">Bonus</td>
+      <td><span class="badge bonus">Bonus</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#BA7517"></div></div></td>
+      <td class="score-cell" style="color:#BA7517">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Creativity &amp; initiative</td>
+    </tr>
+    <tr>
+      <td>Deployment guide (Netlify / Vercel)</td>
+      <td style="color:var(--color-text-secondary)">Bonus</td>
+      <td><span class="badge bonus">Bonus</span></td>
+      <td><div class="bar-wrap"><div class="bar-fill" style="width:100%;background:#BA7517"></div></div></td>
+      <td class="score-cell" style="color:#BA7517">100%</td>
+      <td style="color:var(--color-text-secondary);font-size:12px">Creativity &amp; initiative</td>
+    </tr>
+
+    <tr class="total-row">
+      <td colspan="2" style="color:#fff;font-size:14px;font-weight:500;">Overall completion</td>
+      <td><span class="badge" style="background:#1D9E75;color:#fff;">28 / 28</span></td>
+      <td>
+        <div style="background:rgba(255,255,255,0.15);border-radius:20px;height:10px;overflow:hidden;">
+          <div style="width:97%;height:10px;border-radius:20px;background:#1D9E75;"></div>
+        </div>
+      </td>
+      <td style="text-align:center;font-size:18px;font-weight:500;color:#9FE1CB;">97%</td>
+      <td style="color:rgba(255,255,255,0.6);font-size:12px;">All phases + bonus</td>
+    </tr>
+
+  </tbody>
+</table>
+</div>
+
+<div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px;">
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:12px;text-align:center;">
+    <p style="margin:0;font-size:22px;font-weight:500;color:#1D9E75;">5 / 5</p>
+    <p style="margin:4px 0 0;font-size:12px;color:var(--color-text-secondary);">Phases complete</p>
+  </div>
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:12px;text-align:center;">
+    <p style="margin:0;font-size:22px;font-weight:500;color:#1D9E75;">25 / 25</p>
+    <p style="margin:4px 0 0;font-size:12px;color:var(--color-text-secondary);">Core tasks done</p>
+  </div>
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:12px;text-align:center;">
+    <p style="margin:0;font-size:22px;font-weight:500;color:#BA7517;">3 / 3</p>
+    <p style="margin:4px 0 0;font-size:12px;color:var(--color-text-secondary);">Bonus tasks done</p>
+  </div>
+  <div style="background:var(--color-background-secondary);border-radius:var(--border-radius-md);padding:12px;text-align:center;">
+    <p style="margin:0;font-size:22px;font-weight:500;color:#7F77DD;">97%</p>
+    <p style="margin:4px 0 0;font-size:12px;color:var(--color-text-secondary);">Overall efficiency</p>
+  </div>
+</div>
